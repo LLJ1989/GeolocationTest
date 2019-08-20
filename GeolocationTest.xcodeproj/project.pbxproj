@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		911ED6FD230C6AB900B4A8AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ED6FC230C6AB900B4A8AE /* AppDelegate.swift */; };
-		911ED6FF230C6AB900B4A8AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ED6FE230C6AB900B4A8AE /* ViewController.swift */; };
 		911ED702230C6AB900B4A8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911ED700230C6AB900B4A8AE /* Main.storyboard */; };
 		911ED704230C6ABA00B4A8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911ED703230C6ABA00B4A8AE /* Assets.xcassets */; };
 		911ED707230C6ABA00B4A8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911ED705230C6ABA00B4A8AE /* LaunchScreen.storyboard */; };
 		911ED712230C6ABA00B4A8AE /* GeolocationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ED711230C6ABA00B4A8AE /* GeolocationTestTests.swift */; };
+		911ED720230C6C8300B4A8AE /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 911ED71F230C6C8300B4A8AE /* Route.gpx */; };
+		911ED722230C71BA00B4A8AE /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ED721230C71BA00B4A8AE /* PlacesTableViewController.swift */; };
+		911ED724230C71E200B4A8AE /* LocationsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ED723230C71E200B4A8AE /* LocationsStorage.swift */; };
+		911ED726230C722C00B4A8AE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ED725230C722C00B4A8AE /* Location.swift */; };
+		911ED728230C728600B4A8AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911ED727230C728600B4A8AE /* MapViewController.swift */; };
+		911ED72F230C760500B4A8AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 911ED72E230C760500B4A8AE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,6 @@
 /* Begin PBXFileReference section */
 		911ED6F9230C6AB900B4A8AE /* GeolocationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeolocationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911ED6FC230C6AB900B4A8AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		911ED6FE230C6AB900B4A8AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		911ED701230C6AB900B4A8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		911ED703230C6ABA00B4A8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911ED706230C6ABA00B4A8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +40,13 @@
 		911ED70D230C6ABA00B4A8AE /* GeolocationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeolocationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911ED711230C6ABA00B4A8AE /* GeolocationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationTestTests.swift; sourceTree = "<group>"; };
 		911ED713230C6ABA00B4A8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911ED71D230C6AE300B4A8AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		911ED71F230C6C8300B4A8AE /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Route.gpx; path = "../../../Downloads/Journal materials/Journal starter/Route.gpx"; sourceTree = "<group>"; };
+		911ED721230C71BA00B4A8AE /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		911ED723230C71E200B4A8AE /* LocationsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsStorage.swift; sourceTree = "<group>"; };
+		911ED725230C722C00B4A8AE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		911ED727230C728600B4A8AE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		911ED72E230C760500B4A8AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +70,11 @@
 		911ED6F0230C6AB900B4A8AE = {
 			isa = PBXGroup;
 			children = (
+				911ED72E230C760500B4A8AE /* Default-568h@2x.png */,
 				911ED6FB230C6AB900B4A8AE /* GeolocationTest */,
 				911ED710230C6ABA00B4A8AE /* GeolocationTestTests */,
 				911ED6FA230C6AB900B4A8AE /* Products */,
+				911ED71C230C6AE300B4A8AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +90,11 @@
 		911ED6FB230C6AB900B4A8AE /* GeolocationTest */ = {
 			isa = PBXGroup;
 			children = (
-				911ED6FC230C6AB900B4A8AE /* AppDelegate.swift */,
-				911ED6FE230C6AB900B4A8AE /* ViewController.swift */,
-				911ED700230C6AB900B4A8AE /* Main.storyboard */,
-				911ED703230C6ABA00B4A8AE /* Assets.xcassets */,
-				911ED705230C6ABA00B4A8AE /* LaunchScreen.storyboard */,
-				911ED708230C6ABA00B4A8AE /* Info.plist */,
+				911ED72D230C72CA00B4A8AE /* Model */,
+				911ED72C230C72B400B4A8AE /* View */,
+				911ED72B230C72A500B4A8AE /* Controller */,
+				911ED729230C728800B4A8AE /* Supporting Files */,
+				911ED71F230C6C8300B4A8AE /* Route.gpx */,
 			);
 			path = GeolocationTest;
 			sourceTree = "<group>";
@@ -94,6 +106,51 @@
 				911ED713230C6ABA00B4A8AE /* Info.plist */,
 			);
 			path = GeolocationTestTests;
+			sourceTree = "<group>";
+		};
+		911ED71C230C6AE300B4A8AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911ED71D230C6AE300B4A8AE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		911ED729230C728800B4A8AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				911ED708230C6ABA00B4A8AE /* Info.plist */,
+				911ED703230C6ABA00B4A8AE /* Assets.xcassets */,
+				911ED6FC230C6AB900B4A8AE /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		911ED72B230C72A500B4A8AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				911ED727230C728600B4A8AE /* MapViewController.swift */,
+				911ED721230C71BA00B4A8AE /* PlacesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		911ED72C230C72B400B4A8AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				911ED705230C6ABA00B4A8AE /* LaunchScreen.storyboard */,
+				911ED700230C6AB900B4A8AE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		911ED72D230C72CA00B4A8AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				911ED725230C722C00B4A8AE /* Location.swift */,
+				911ED723230C71E200B4A8AE /* LocationsStorage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				911ED707230C6ABA00B4A8AE /* LaunchScreen.storyboard in Resources */,
+				911ED720230C6C8300B4A8AE /* Route.gpx in Resources */,
 				911ED704230C6ABA00B4A8AE /* Assets.xcassets in Resources */,
+				911ED72F230C760500B4A8AE /* Default-568h@2x.png in Resources */,
 				911ED702230C6AB900B4A8AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				911ED6FF230C6AB900B4A8AE /* ViewController.swift in Sources */,
 				911ED6FD230C6AB900B4A8AE /* AppDelegate.swift in Sources */,
+				911ED722230C71BA00B4A8AE /* PlacesTableViewController.swift in Sources */,
+				911ED726230C722C00B4A8AE /* Location.swift in Sources */,
+				911ED728230C728600B4A8AE /* MapViewController.swift in Sources */,
+				911ED724230C71E200B4A8AE /* LocationsStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TDJL946XY;
-				INFOPLIST_FILE = GeolocationTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GeolocationTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TDJL946XY;
-				INFOPLIST_FILE = GeolocationTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GeolocationTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
